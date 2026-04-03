@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us – Delivery Rush</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #0d0d0d;
+      color: #f0f0f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: linear-gradient(135deg, #e63946, #1d1d2e);
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    header p {
+      margin-top: 8px;
+      color: #ffccd5;
+      font-size: 1rem;
+    }
+    main {
+      flex: 1;
+      max-width: 680px;
+      margin: 48px auto;
+      padding: 0 20px;
+      width: 100%;
+    }
+    .card {
+      background: #1a1a2e;
+      border-radius: 12px;
+      padding: 36px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+    }
+    .card h2 {
+      font-size: 1.4rem;
+      color: #e63946;
+      margin-bottom: 16px;
+    }
+    .card p {
+      line-height: 1.8;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+    .info-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+      padding: 14px 18px;
+      background: #12122a;
+      border-radius: 8px;
+      border-left: 3px solid #e63946;
+    }
+    .info-row .label {
+      font-weight: 600;
+      color: #e63946;
+      min-width: 80px;
+    }
+    .info-row a {
+      color: #f0f0f0;
+      text-decoration: none;
+    }
+    .info-row a:hover { text-decoration: underline; color: #e63946; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #555;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Delivery Rush</h1>
+    <p>Contact Us</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Get in Touch</h2>
+      <p>
+        Have a question, feedback, or need support? We'd love to hear from you.
+        Reach out through any of the channels below and we'll get back to you as soon as possible.
+      </p>
+
+      <div class="info-row">
+        <span class="label">Email</span>
+        <a href="mailto:abuzer.social@gmail.com">abuzer.social@gmail.com</a>
+      </div>
+
+      <div class="info-row">
+        <span class="label">Developer</span>
+        <span>Greelogix</span>
+      </div>
+
+      <div class="info-row">
+        <span class="label">Response</span>
+        <span>Within 2–3 business days</span>
+      </div>
+
+      <p style="margin-top: 24px; font-size: 0.9rem; color: #888;">
+        For bug reports, please include your device model, OS version, and a brief description of the issue.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Greelogix. All rights reserved.
+  </footer>
+</body>
+</html>
